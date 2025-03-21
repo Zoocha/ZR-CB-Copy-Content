@@ -1,0 +1,35 @@
+uuid: d638aa75-9838-4b74-9cd7-337d2effdba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.copy
+    - field.field.block_content.copy.field_background_colour
+    - field.field.block_content.copy.field_copy_text
+  module:
+    - color_field
+    - text
+id: block_content.copy.default
+targetEntityType: block_content
+bundle: copy
+mode: default
+content:
+  field_background_colour:
+    type: color_field_formatter_text
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_copy_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

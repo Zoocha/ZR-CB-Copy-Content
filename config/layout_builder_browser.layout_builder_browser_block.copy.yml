@@ -1,0 +1,11 @@
+uuid: 422380e2-80f1-4967-88a8-b40d69436377
+langcode: en
+status: true
+dependencies: {  }
+id: copy
+block_id: 'inline_block:copy'
+category: zoocha_components
+label: Copy
+image_path: ''
+image_alt: ''
+weight: -100

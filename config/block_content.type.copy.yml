@@ -1,0 +1,8 @@
+uuid: fe26afee-e8d7-4f95-803d-a8fb7eebdba2
+langcode: en
+status: true
+dependencies: {  }
+id: copy
+label: Copy
+revision: false
+description: null

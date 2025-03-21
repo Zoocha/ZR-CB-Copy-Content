@@ -1,0 +1,26 @@
+uuid: 922c4fcf-f80d-4412-bdf9-66a195abbb7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.copy
+    - field.storage.block_content.field_copy_text
+    - filter.format.basic_html
+    - filter.format.full_html
+  module:
+    - text
+id: block_content.copy.field_copy_text
+field_name: field_copy_text
+entity_type: block_content
+bundle: copy
+label: 'Copy text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

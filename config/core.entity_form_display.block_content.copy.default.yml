@@ -1,0 +1,53 @@
+uuid: c7aaa1a2-9a4e-42d4-8138-fe651ff85c25
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.copy
+    - field.field.block_content.copy.field_background_colour
+    - field.field.block_content.copy.field_copy_text
+  module:
+    - color_field
+    - text
+id: block_content.copy.default
+targetEntityType: block_content
+bundle: copy
+mode: default
+content:
+  field_background_colour:
+    type: color_field_widget_box
+    weight: 2
+    region: content
+    settings:
+      default_colors: '#ffffff,#3a11cb,#ff5d35,#201e26'
+    third_party_settings: {  }
+  field_copy_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
