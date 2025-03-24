@@ -3,7 +3,7 @@ description: 'Installs Copy Component'
 type: 'Feature'
 
 recipes:
-  - zoocha-layout-builder-bundle
-  - zoocha-cke5-recipe
+  - zr-layout-builder-bundle
+  - cke5-recipe
 config:
   strict: false
