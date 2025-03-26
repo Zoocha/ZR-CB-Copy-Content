@@ -1,7 +1,7 @@
 {
     "name": "zr/zr-cb-copy-content",
     "description": "ZR CB Copy Content",
-    "type": "drupal-recipe",
+    "type": "drupal-custom-recipe",
     "require": {
         "php": ">=8.1"
     },
