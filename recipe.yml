@@ -5,5 +5,7 @@ type: 'Feature'
 recipes:
   - zr-layout-builder-bundle
   - cke5-recipe
+install:
+  - color_field
 config:
   strict: false
