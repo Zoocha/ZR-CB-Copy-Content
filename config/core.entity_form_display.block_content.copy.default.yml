@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.copy
-    - field.field.block_content.copy.field_background_colour
     - field.field.block_content.copy.field_copy_text
   module:
     - color_field
@@ -14,13 +13,6 @@ targetEntityType: block_content
 bundle: copy
 mode: default
 content:
-  field_background_colour:
-    type: color_field_widget_box
-    weight: 2
-    region: content
-    settings:
-      default_colors: '#ffffff,#3a11cb,#ff5d35,#201e26'
-    third_party_settings: {  }
   field_copy_text:
     type: text_textarea
     weight: 1

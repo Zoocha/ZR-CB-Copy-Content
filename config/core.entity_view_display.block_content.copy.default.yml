@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.copy
-    - field.field.block_content.copy.field_background_colour
     - field.field.block_content.copy.field_copy_text
   module:
     - color_field
@@ -14,15 +13,6 @@ targetEntityType: block_content
 bundle: copy
 mode: default
 content:
-  field_background_colour:
-    type: color_field_formatter_text
-    label: hidden
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_copy_text:
     type: text_default
     label: hidden
