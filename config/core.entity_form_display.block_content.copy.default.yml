@@ -6,7 +6,6 @@ dependencies:
     - block_content.type.copy
     - field.field.block_content.copy.field_copy_text
   module:
-    - color_field
     - text
 id: block_content.copy.default
 targetEntityType: block_content
